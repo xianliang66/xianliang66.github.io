@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-**Jin Zhang**, Zhuocheng Ding, Yubin Chen, Xingguo Jia, Boshi Yu, Zhengwei Qi, and Haibing Guan. GiantVM: a Type-II Hypervisor Implementing Many-to-one Virtualization.
+**Jin Zhang**, Zhuocheng Ding, Yubin Chen, Xingguo Jia, Boshi Yu, Zhengwei Qi, and Haibing Guan. GiantVM: a Type-II Hypervisor Implementing Many-to-one Virtualization. (VEE'20)
 [\[Paper\]](https://xianliang66.github.io/files/vee20.pdf) [\[Code\]](https://github.com/GiantVM) [\[Website\]](https://giantvm.github.io/)
 
 
