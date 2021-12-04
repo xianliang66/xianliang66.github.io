@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ### GiantVM
-<img src="https://xianliang66.github.io/files/giantvm-arch.png" alt="drawing" width="400" style="float: left"/>
+<img src="https://xianliang66.github.io/files/giantvm-arch.png" alt="drawing" width="400" style="float: right"/>
 
 A distributed hypervisor based on QEMU-KVM. It enables one VM to run on a cluster of physical machines. By leveraging distributed CPU, I/O, and memory (a.k.a., DSM), a unified x86 ISA is provided for the guest OS. Unmodified OSes such as Linux can thus utilize resources from a cluster. The experiments show that GiantVM can improve applications performance up to 3.4x compared to Spark.
 
