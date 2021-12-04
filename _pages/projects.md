@@ -8,7 +8,7 @@ author_profile: true
 ### GiantVM
 <img src="https://xianliang66.github.io/files/giantvm-arch.png" alt="drawing" width="300" style="float: left"/>
 
-A distributed hypervisor based on QEMU-KVM. It enables one VM to run on a cluster of physical machines. By leveraging distributed CPU, I/O, and memory (a.k.a, DSM), a uni ed x86 ISA is provided for the guest OS. Unmodi ed OSes such as Linux can thus utilize resources from a cluster. The experiments show that GiantVM can improve applications performance up to 3.4x compared to Spark.
+A distributed hypervisor based on QEMU-KVM. It enables one VM to run on a cluster of physical machines. By leveraging distributed CPU, I/O, and memory (a.k.a, DSM), a unified x86 ISA is provided for the guest OS. Unmodified OSes such as Linux can thus utilize resources from a cluster. The experiments show that GiantVM can improve applications performance up to 3.4x compared to Spark.
 
 ### Falcon
 <img src="https://xianliang66.github.io/files/falcon-arch.png" alt="drawing" width="300" style="float: left"/>
@@ -18,5 +18,5 @@ A timestamp-based self-invalidation cache coherence protocol for DSM. The tradit
 ### Yanni
 <img src="https://xianliang66.github.io/files/yanni-arch.png" alt="drawing" width="300" style="float: left"/>
 
-A fast VM live migration system for data center load-balancing. A major problem for the VM live migration is its overwhelming network bandwidth consumption. Yanni addresses this by an empirical result that applications have read-only pages. Such pages are replicated at the destination before the migration, and the subsequent migration consumes little network bandwidth. Yanni also designed a dedicated compression algorithm to save the memory space of such read-only replica. The evalua- tion shows that Yanni reduces the network bandwidth use and the migration time by 69% and 83%, respectively, compared to VM live migration. The compression can achieve a space-saving of 83.6%.
+A fast VM live migration system for data center load-balancing. A major problem for the VM live migration is its overwhelming network bandwidth consumption. Yanni addresses this by an empirical result that applications have read-only pages. Such pages are replicated at the destination before the migration, and the subsequent migration consumes little network bandwidth. Yanni also designed a dedicated compression algorithm to save the memory space of such read-only replica. The evaluation shows that Yanni reduces the network bandwidth use and the migration time by 69% and 83%, respectively, compared to VM live migration. The compression can achieve a space-saving of 83.6%.
 
