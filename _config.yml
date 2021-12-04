@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Jin Zhang"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Jin Zhang"
 description              : &description "personal description"
 url                      : https://xianliang66.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,8 +83,8 @@ author:
   name             : "Jin Zhang"
   avatar           : "me.png"
   bio              : "SDE at Alibaba Cloud"
-  location         : "https://www.google.com/maps/place/%E4%BA%91%E6%A0%96%E5%B0%8F%E9%95%87/@30.1292713,120.0839372,16z/data=!4m8!1m2!2m1!1z6Zi_6YeM5LqR!3m4!1s0x344b7edd23c6d589:0xb4c3c6f453fd6170!8m2!3d30.129271!4d120.087183"
-  employer         : "https://www.alibabacloud.com/"
+  location         : "Location"
+  employer         :
   pubmed           :
   googlescholar    :
   email            :
