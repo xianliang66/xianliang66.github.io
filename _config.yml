@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jin Zhang"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Jin Zhang"
 description              : &description "personal description"
