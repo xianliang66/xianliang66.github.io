@@ -5,7 +5,6 @@ main:
 
   - title: "Projects"
     url: /projects/
-    :q
 
 #- title: "Talks"
 #url: /talks/
